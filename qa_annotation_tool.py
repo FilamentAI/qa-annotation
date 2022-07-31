@@ -41,8 +41,6 @@ def shuffle_qa_data(username: str, qa_data: List[Tuple[str, str, str]]) -> List[
     :return: A shuffled copy of the QA data.
     """
 
-    return qa_data # TODO Delete this line.
-
     random.seed(username)
 
     sub_groups = {}
