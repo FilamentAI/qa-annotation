@@ -1,0 +1,9 @@
+{
+    "This is an example document from which synthetic QA pairs could be generated. WidgetCo recently sold 500 widgets in a single day, achieving record profits and firmly establishing itself as a strong competitor to the market's previous primary supplier, BigWidgetInc. ": {
+        "How many widgets did WidgetCo sell in one day?": "500",
+        "How was WidgetCo able to sell so many widgets?": "achieving record profits"
+    },
+    "This is a second document, with some data that needs correction. Famed cyclist James McBike agreed to be BigWidgetCo's spokesman yesterday, in what many believe is an attempt to fight back against WidgetCo's growing market share.": {
+        "Who spokesman agreed to be?": "James"
+    }
+}

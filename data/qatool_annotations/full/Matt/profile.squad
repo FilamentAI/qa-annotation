@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "title": "Streamlit",
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "question": "How many widgets did WidgetCo sell in one day?",
+                            "answers": [
+                                {
+                                    "text": "500",
+                                    "answer_start": 101
+                                },
+                                {
+                                    "text": "500",
+                                    "answer_start": 101
+                                }
+                            ],
+                            "is_impossible": false,
+                            "id": "88cb9a82a839466d845c4171ecdc2841"
+                        }
+                    ],
+                    "context": "This is an example document from which synthetic QA pairs could be generated. WidgetCo recently sold 500 widgets in a single day, achieving record profits and firmly establishing itself as a strong competitor to the market's previous primary supplier, BigWidgetInc. "
+                },
+                {
+                    "qas": [
+                        {
+                            "question": "Who agreed to be the spokesman?",
+                            "answers": [
+                                {
+                                    "text": "James McBike",
+                                    "answer_start": 79
+                                }
+                            ],
+                            "is_impossible": false,
+                            "id": "6fe55bf972604d6aacc2059d19485d10"
+                        }
+                    ],
+                    "context": "This is a second document, with some data that needs correction. Famed cyclist James McBike agreed to be BigWidgetCo's spokesman yesterday, in what many believe is an attempt to fight back against WidgetCo's growing market share."
+                }
+            ]
+        }
+    ],
+    "version": "v2.0"
+}
