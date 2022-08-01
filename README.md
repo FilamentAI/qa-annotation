@@ -15,11 +15,11 @@ Note that any arguments to the tool must follow the `--` above, else they'll be 
 
 You can pass three arguments to it, and get descriptions of them by passing "--help" to the script. 
 
-* "--insecure" - Allows for running without a password file.
+* `--insecure` - Allows for running without a password file.
 
-* "--preliminary" - Indicates that the tool is running in "preliminary mode", changing the data it gets and where it outputs to. Mutually exclusive with "--subset". 
+* `--preliminary` - Indicates that the tool is running in "preliminary mode", changing the data it gets and where it outputs to. Mutually exclusive with "--subset". 
 
-* "--subset" - Specifies a subset of the annotators that we wish to run for. E.g. If you have 30 annotators are split into 10 subsets of 3 each, you would run the tool once for each subset with "--subset 1", "--subset 2", etc. and each would be presented with different data (corresponding to the data marked as being for that subset). 
+* `--subset` - Specifies a subset of the annotators that we wish to run for. E.g. If you have 30 annotators are split into 10 subsets of 3 each, you would run the tool once for each subset with "--subset 1", "--subset 2", etc. and each would be presented with different data (corresponding to the data marked as being for that subset). 
 
 ## Output
 The tool creates various JSON files per user, in `data/generated_questions`. An example user output is provided.
