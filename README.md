@@ -2,7 +2,7 @@
 The Streamlit tool for the Filament Synthetic QA Pairs project, used to annotate generated data. 
 
 ## Setup
-You should install the project requirements via Pip using `pip install -r requirements.txt` and add some data to the file "data/generated\_data/generated\_data.json". An example generated\_data.json is provided.
+You should install the project requirements via Pip using `pip install -r requirements.txt` and add some data to the file `data/generated\_data/generated\_data.json`. An example `generated\_data.json` is provided.
 
 You should also create a `password` file containing a SHA 512-encoded password for better security (and you'll no longer need to pass "--insecure"). 
 
