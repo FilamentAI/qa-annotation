@@ -22,4 +22,4 @@ You can pass three arguments to it, and get descriptions of them by passing "--h
 * `--subset` - Specifies a subset of the annotators that we wish to run for. E.g. If you have 30 annotators are split into 10 subsets of 3 each, you would run the tool once for each subset with "--subset 1", "--subset 2", etc. and each would be presented with different data (corresponding to the data marked as being for that subset). 
 
 ## Output
-The tool creates various JSON files per user, in `data/generated_questions`. An example user output is provided.
+The tool creates various JSON files per user, in `data/qatool_annotations/`. An example user output is provided.
